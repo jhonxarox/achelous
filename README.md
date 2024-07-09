@@ -11,6 +11,8 @@ git clone <repository-url>
 cd feedback-form-frontend
 ```
 
+## Run Manually
+
 ### Install Dependencies
 To install all the necessary dependencies, run the following command:
 
@@ -22,9 +24,18 @@ npm install
 To start the development server, use the following command:
 
 ```bash
-npm run serve
+npm run dev
 ```
-This will run the application in development mode. Open your browser and navigate to http://localhost:8080 to see the application.
+This will run the application in development mode. Open your browser and navigate to http://localhost:5173 to see the application.
+
+## Run using Docker (Not Ready)
+Build and Run the Docker Container
+To build and run the Docker container, use the following command:
+
+```bash
+docker-compose up --build
+```
+This will start the frontend application inside a Docker container. Open your browser and navigate to http://localhost:5173 to see the application.
 
 ## Project Structure
 The project structure is as follows:
